@@ -36,7 +36,7 @@ Using `LAYOUT_LEFT_RIGHT`
 @startuml LAYOUT_LEFT_RIGHT Sample
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
 
-LAYOUT_LEFT_RIGHT
+LAYOUT_LEFT_RIGHT()
 
 Person(admin, "Administrator")
 System_Boundary(c1, 'Sample') {
@@ -63,7 +63,7 @@ This can be enabled with `LAYOUT_WITH_LEGEND`.
 @startuml LAYOUT_WITH_LEGEND Sample
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
 
-LAYOUT_WITH_LEGEND
+LAYOUT_WITH_LEGEND()
 
 Person(admin, "Administrator")
 System_Boundary(c1, 'Sample') {
